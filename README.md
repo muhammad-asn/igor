@@ -25,6 +25,23 @@ $ igor
 $ igor --num-images 5
 ```
 
+### Show Help
+```bash
+$ igor --help
+NAME:
+   identicon-generator - generate identicon images
+
+USAGE:
+   igor-darwin [global options] command [command options] [arguments...]
+
+COMMANDS:
+   help, h  Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --num-images value, -n value  number of images to generate (default: 1)
+   --help, -h                    show help
+```
+
 #### Cleaning up
 To clean up the compiled binaries, run make clean.
 

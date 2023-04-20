@@ -28,7 +28,7 @@ func main() {
 }
 
 func run(c *cli.Context) error {
-	if c.NumFlags() < 1 {
+	if c.NumFlags() < 0 {
 		cli.ShowAppHelp(c)
 		os.Exit(0)
 	}
