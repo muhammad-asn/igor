@@ -32,7 +32,7 @@ NAME:
    identicon-generator - generate identicon images
 
 USAGE:
-   igor-darwin [global options] command [command options] [arguments...]
+   igor [global options] command [command options] [arguments...]
 
 COMMANDS:
    help, h  Shows a list of commands or help for one command
